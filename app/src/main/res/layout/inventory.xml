@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginTop="40dp">
+
+    <!--Input New Items-->
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputName" />
+
+    <EditText
+        android:id="@+id/inputQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputQuantity"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonAdd" />
+
+    <!--Table Details-->
+
+    <!--Header-->
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0, 1">
+
+        <TableRow
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:text="@string/itemHeader"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:text="@string/quantityHeader"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:text="@string/delete"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CS360 Final Project</string>
+
+    <!--Strings for the Login Activity-->
+    <string name="login">Login</string>
+    <string name="usernameHint">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="phoneHint">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="loginSwitch">Already Have an Account?</string>
+    <string name="registerSwitch">Want to Create an Account?</string>
+    <string name="incorrectLogin">Incorrect Username or Password</string>
+
+    <!--Strings for the Inventory Activity-->
+    <string name="inputName">Item Name</string>
+    <string name="inputQuantity">Quantity</string>
+    <string name="buttonAdd">Add Item</string>
+    <string name="buttonUpdate">Update Item</string>
+        <!--Column Headers-->
+        <string name="itemHeader">Item</string>
+        <string name="quantityHeader">Quantity</string>
+        <string name="delete">Delete</string>
+
+    <!--Strings for the Permissions Activity-->
+    <string name="permissionsTitle">SMS Permission</string>
+    <string name="requestSMS">Request SMS Permission</string>
+    <string name="noPermission">Permission is required to continue</string>
+    <string name="DEBUG_sendNotification">DEBUG: Send Notification SMS</string>
+    <string name="checkInventory">Check Inventory</string>
+
+</resources>
